@@ -1,7 +1,4 @@
-import React from "react";
-import { GraduationCap } from "lucide-react";
-import { Award } from "lucide-react";
-import { MapPin } from "lucide-react";
+
 import { School } from "lucide-react";
 
 
@@ -39,7 +36,7 @@ const Parcours = () => {
         style={{ animationDuration: '6s' }} 
       />
 
-      {/* Contenu */}
+    
       <div className="relative max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-10">
           🎓 Parcours académique

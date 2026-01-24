@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Globe, Send, ArrowRight } from 'lucide-react';
 
 
@@ -62,7 +62,7 @@ const Hero = () => (
   </section>
 );
 
-// --- COMPOSANT CONTACT ---
+
 const Contact = () => (
   <section id="contact" className="py-20 px-6">
     <div className="max-w-5xl mx-auto bg-[#121212] rounded-3xl overflow-hidden shadow-2xl border border-white/5 flex flex-col md:flex-row">
