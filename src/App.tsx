@@ -5,33 +5,41 @@ import Footer from "./components/Footer";
 import Contentpage from "./components/Contentpage";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
-
-
-
+import ScrollRevealItem from "./components/ScrollRevealItem";
 
 export default function App(){
-
-
   return(
      <div className=" text-white min-h-screen bg-[#060010]">
         
-      <div className="sticky top-0 z-50 bg-[]/80 backdrop-blur-md ">
+            <div className="sticky top-0 z-50 bg-[]/80 backdrop-blur-md ">
         
-         <Navbar/>
+            <Navbar/>
         
-      </div>
+        </div>
+
       
-          <Home/>  
-          <About/>
-      <div>
-           
-            <Skills/>             
-            <Projects/>
-      </div>
+            <Home/> 
+        <ScrollRevealItem>
+            <About/>
+
+         </ScrollRevealItem> 
           
-          <Contentpage/>
-          <Footer/>
- 
+        <div>
+            <ScrollRevealItem>
+                <Skills/>             
+                <Projects/>
+                
+            </ScrollRevealItem>
+           
+            
+        </div>
+        <ScrollRevealItem>
+            <Contentpage/>
+            <Footer/>
+
+
+
+        </ScrollRevealItem>
       
       </div>
   )

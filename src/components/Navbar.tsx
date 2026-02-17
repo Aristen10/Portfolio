@@ -8,13 +8,13 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 p-4">
     
-      <div className="mx-auto max-w-5xl bg-white/[0.03] backdrop-blur-xl flex justify-between items-center p-4 border border-white/10 rounded-2xl shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] transition-all duration-300">
+      <div className="mx-auto max-w-5xl bg-white/[0.03] backdrop-blur-xl flex justify-between items-center p-4 border border-white/10 rounded-2xl shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] transition-all duration-300 ">
         
         <div className="flex items-center justify-center">
           <h4 className="font-os text-2xl text-white ">Aris</h4>
           <RotatingText
             texts={['ten', 'Dix', '10', '1010']}
-            mainClassName="font-os text-white overflow-hidden justify-center text-2xl"
+            mainClassName="font-os text-white overflow-hidden justify-center text-2xl xs: text-md"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}

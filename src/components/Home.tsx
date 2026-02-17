@@ -1,4 +1,5 @@
 import DarkVeil from './DarkVeil';
+import ScrollReveal from './ScrollReveal';
 
 export default function HeroBackground() {
   return (
@@ -27,7 +28,8 @@ export default function HeroBackground() {
           
          
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <ScrollReveal>
+              <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Bonjour, je suis <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7C5DFA] via-[#5D7CFA] to-[#C084FC]">
                 Aristen Sina
@@ -37,6 +39,11 @@ export default function HeroBackground() {
               Je suis un développeur web passionné par le frontend utilisant React 
               pour la création d'interfaces modernes et innovantes.
             </p>
+
+
+
+            </ScrollReveal>
+            
           </div>
 
          
